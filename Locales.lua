@@ -25,7 +25,7 @@ function Overlord.IsRussianLocale()
 end
 
 function Overlord.UsesCommaDecimalLocale()
-    return Overlord.IsFrenchLocale() or Overlord.IsSpanishLocale() or Overlord.IsGermanLocale()
+    return Overlord.IsFrenchLocale() or Overlord.IsSpanishLocale() or Overlord.IsGermanLocale() or Overlord.IsRussianLocale()
 end
 
 -- ================================================================
